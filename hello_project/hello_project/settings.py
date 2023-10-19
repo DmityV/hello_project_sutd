@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'hellow_project.urls'
+ROOT_URLCONF = 'hello_project.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'hellow_project.wsgi.application'
+WSGI_APPLICATION = 'hello_project.wsgi.application'
 
 
 # Database
