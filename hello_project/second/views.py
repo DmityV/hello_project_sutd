@@ -3,6 +3,6 @@ from django.shortcuts import render
 from django.template import loader
 
 # Create your views here.
-def index(request):
-    template_name = 'main/index.html'
+def second(request):
+    template_name = 'second/second_page.html'
     return render(request, template_name)
