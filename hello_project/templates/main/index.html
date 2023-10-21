@@ -2,5 +2,5 @@
 
 {% block content %}
 <h1>Hello, new world!</h1>
-<p>Now you can <a href="/second">proceed</a> to the second page</p>
+<p>Now you can <a href="{% url 'second:second_page' %}">proceed</a> to the second page</p>
 {% endblock %}

@@ -2,5 +2,5 @@
 
 {% block content %}
 <h1>This is the second page...</h1>
-<p>You can <a href="/">go back</a> to the first page</p>
+<p>You can <a href="{% url 'main:index_page' %}">go back</a> to the first page</p>
 {% endblock %}
